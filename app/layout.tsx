@@ -1,9 +1,9 @@
-import type { Metadata } from 'next';
-import './globals.css'
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Next.js on GitHub Pages',
-  description: 'Deploy your static Next.js site to GitHub Pages.',
+  title: "Next.js on GitHub Pages",
+  description: "Deploy your static Next.js site to GitHub Pages.",
 };
 
 export default function RootLayout({
@@ -13,6 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head></head>
       <body>{children}</body>
     </html>
   );
